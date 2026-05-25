@@ -116,7 +116,7 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 
 [Descanso] - 21:05 a 21:25h
 
-<!-- 
+
 - Estructura del proyecto creado con Vite
   - Client Side Rendering
   - Single Page Application (SPA)
@@ -126,7 +126,9 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 - Componentes
   - Componentes y funciones
   - Construcción de componentes: Componentización
-    - Header y Footer a partir de la App Inicial -->
+    - Socials, Docs, Hero y Counter a partir de la App Inicial 
+  - Componentes y props
+  - Iteración en el tsx: renderizado de listas
 
 ### Día 2 (Martes 26/05)
 
