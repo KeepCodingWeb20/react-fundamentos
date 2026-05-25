@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React sample</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #root {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  </style>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <body>
+    <h1>React Sample</h1>
+    <div id="root"></div>
+    <script type="text/babel">
+
+      const Section = () =>  {
+        return (
+          <section>
+            <h2>React Sample</h2>
+            <p>This is a simple React application rendered in the browser.</p>
+          </section>
+        );
+      }
+
+      const App = () => {
+        return (
+          <>
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+          </>
+        );
+      }
+      
+
+      const root = document.querySelector('#root');
+      ReactDOM.render(App(), root);
+    </script>
+  </body>
+</html>
