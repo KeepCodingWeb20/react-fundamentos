@@ -104,7 +104,7 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 
 ### Día 1 (Lunes 25/05)
 
-<!-- - Introducción ¿Qué es React?
+- Introducción ¿Qué es React?
   - Librería de JavaScript
   - Principios básicos
   - Elementos del DOM. React en un Script
@@ -114,8 +114,9 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
   - Requisitos previos
   - Instalación de React y TypeScript con Vite
 
-[Descanso] - 21:00 a 21:20h
+[Descanso] - 21:05 a 21:25h
 
+<!-- 
 - Estructura del proyecto creado con Vite
   - Client Side Rendering
   - Single Page Application (SPA)
