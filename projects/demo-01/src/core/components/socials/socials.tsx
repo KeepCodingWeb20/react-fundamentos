@@ -10,7 +10,7 @@ export const Socials: React.FC = () => {
             <p>Join the Vite community</p>
             <ul>
                 {SOCIALS.map(({ name, url, iconId }) => (
-                    <li>
+                    <li key={name}>
                         <a href={url} target="_blank">
                             <svg
                                 className="button-icon"
