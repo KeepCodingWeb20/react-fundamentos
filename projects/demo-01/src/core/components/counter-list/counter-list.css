@@ -1,0 +1,7 @@
+.counter-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid #ccc; 
+}

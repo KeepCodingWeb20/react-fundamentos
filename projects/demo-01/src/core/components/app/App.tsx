@@ -1,23 +1,23 @@
 import './App.css';
 import { Socials } from '../socials/socials.tsx';
 import { Docs } from '../docs/docs.tsx';
-import { Hero } from '../hero/hero.tsx';
 import { Counter } from '../counter/counter.tsx';
+import { AboutPage } from '../../../features/about/about-page.tsx';
+import { CounterBad } from '../counter/counter.bad.tsx';
+import { CounterList } from '../counter-list/counter-list.tsx';
 
 export const App: React.FC = () => {
     const title = 'Vite + React';
     const appPath = 'src/core/components/app/App.tsx';
 
-    const counters = [19, 23, 36];
- 
+
 
     return (
         <>
             <section id="center">
-                <Hero title={title} path={appPath} />
-                {counters.map((id) => (
-                    <Counter key={id} id={id} />
-                ))}
+                <AboutPage title={title} path={appPath}></AboutPage>
+                <CounterList />
+                <CounterBad />
             </section>
             <div className="ticks"></div>
             <section id="next-steps">
@@ -28,5 +28,4 @@ export const App: React.FC = () => {
             <section id="spacer"></section>
         </>
     );
-}
-
+};

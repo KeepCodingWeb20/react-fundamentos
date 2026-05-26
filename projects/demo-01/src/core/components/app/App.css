@@ -17,6 +17,13 @@
   }
 }
 
+.hero-container {
+    background-color: rgb(194, 194, 194);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 2rem;
+}
+
 .hero {
   position: relative;
 
@@ -95,14 +102,7 @@
   }
 }
 
-#docs {
-  border-right: 1px solid var(--border);
 
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-}
 
 #next-steps ul {
   list-style: none;
