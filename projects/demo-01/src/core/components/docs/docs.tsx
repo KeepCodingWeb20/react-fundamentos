@@ -1,9 +1,10 @@
 import reactLogo from '../../../assets/react.svg'
 import viteLogo from '../../../assets/vite.svg'
+import './docs.css'
 
 export const Docs: React.FC = () => {
     return (
-        <div id="docs">
+        <div className="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
