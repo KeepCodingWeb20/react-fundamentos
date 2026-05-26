@@ -129,35 +129,35 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
     - Socials, Docs, Hero y Counter a partir de la App Inicial 
   - Componentes y props
   - Iteración en el tsx: renderizado de listas
+  - Condiciones en los componentes
 
 ### Día 2 (Martes 26/05)
 
-<!-- - Construcción de componentes: Componentización
+- Construcción de componentes: Componentización
   - Componentes y props. Children
   - Componentización y composición de componentes
-    - Card
-    - Menu
-    - Logos
-    - Cambios en Header y App
   - Estilos en los componentes
     - Module CSS
 
 [Descanso] - 21:00 a 21:20h
 
+- Hooks
+  - Reglas de los Hooks
+  - Hooks y estado: useState
+
 - Componentes dinámicos. Eventos
-  - Condiciones en los componentes. Greeting
-  - Iteraciones: renderizado de listas. Menu
-  - Manejo de eventos. Tipado de eventos
-    - PanicButton
-    - Componente Button genérico -->
+    - Counter: evento click
+    - Manejo de eventos. Tipado de eventos
+    - Counter +/-
+
+- Comunicación entre componentes: props
+  - Comunicación descendente: props
+  - Comunicación ascendente: props funcionales
+  - Counter-List y Counter
 
 ### Día 3 (Jueves 28/05)
 
 <!-- - Hooks
-  - Reglas de los Hooks
-  - Hooks y estado: useState
-
-[Descanso] - 21:00 a 21:20h
 
 - Efectos secundarios: useEffect
 - Referencias persistentes: useRef
@@ -166,7 +166,10 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
   - (mencionados useMemo, useCallback)
 - Formularios
   - Tipos de formularios en React
-  - Formularios controlados de 1 campo -->
+  - Formularios controlados de 1 campo 
+[Descanso] - 21:00 a 21:20h
+
+-->
 
 ### Día 4 (Lunes 01/06)
 
