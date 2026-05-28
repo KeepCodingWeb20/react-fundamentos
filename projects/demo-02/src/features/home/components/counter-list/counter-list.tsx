@@ -15,7 +15,6 @@ export const CounterList: React.FC = () => {
     const [total, setTotal] = useState(0);
     const [totalClicks, setTotalClicks] = useState(0);
 
-
     // Opción con un estado mas complejo
 
     const [state, setState] = useState<State>({
@@ -46,3 +45,5 @@ export const CounterList: React.FC = () => {
         </>
     );
 };
+
+
