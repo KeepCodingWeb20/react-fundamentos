@@ -22,7 +22,7 @@ const getOptions = (): MenuOption[] => {
 
 export const App: React.FC = () => {
     const appTitle = 'Demo 1';
-    const subTitle = 'React - TS  Vite';
+    const subTitle = 'React - TS - Vite';
 
     const menuOptions: MenuOption[] = getOptions();
     menuOptions.push({ path: '/about', label: 'Acerca de' });
@@ -33,7 +33,7 @@ export const App: React.FC = () => {
             subTitle={subTitle}
             menuOptions={menuOptions}
         >
-            <p>Parte que varía en cada página</p>
+            {/* Parte que varía en cada página */}
             <HomePage />
         </Layout>
     );

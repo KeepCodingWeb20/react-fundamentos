@@ -13,7 +13,7 @@ export const PanicButton: React.FC = () => {
     return (
         <Card title="Panic Button">
             <div className="panic-button">
-                <Button onClick={handleClick} title="Panic">
+                <Button onClick={handleClick} title="Panic" aria-label="Panic Button">
                     Pulsar en caso de emergencia
                 </Button>
                 <p className="message">
