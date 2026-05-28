@@ -2,6 +2,7 @@ import type { MenuOption } from '@core/types/menu-option';
 import { Layout } from '@core/components/layout/layout';
 import './App.css';
 import { HomePage } from '@features/home/home-page';
+import { DashboardPage } from '@features/dashboard/dashboard-page';
 
 const getOptions = (): MenuOption[] => {
     return [
@@ -35,6 +36,7 @@ export const App: React.FC = () => {
         >
             {/* Parte que varía en cada página */}
             <HomePage />
+            <DashboardPage />
         </Layout>
     );
 };
