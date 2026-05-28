@@ -1,0 +1,7 @@
+.counter-container {
+    output {
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+}
