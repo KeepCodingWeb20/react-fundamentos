@@ -155,25 +155,42 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
   - Comunicación ascendente: props funcionales
   - Counter-List y Counter
 
+- Challenge: crear la estructura de componentes descrita en la documentación:
+  - App
+    - Layout 
+      - Header
+        - Menu
+      - [children] Home_Page
+      - Footer
+
 ### Día 3 (Jueves 28/05)
 
-<!-- - Hooks
+- Review del challenge
+  - Componentes y props. Children
+  - Componentización y composición de componentes
+  - Layouts
+  - Props drilling
+  - Componentes de Design System 
+
+- Estados computados
+- Efectos secundarios: useEffect
+
+[descanso] - 21:05 a 21:25h
 
 - Efectos secundarios: useEffect
-- Referencias persistentes: useRef
-  - persistencia de variables
-  - elementos del DOM
-  - (mencionados useMemo, useCallback)
-- Formularios
-  - Tipos de formularios en React
-  - Formularios controlados de 1 campo 
-[Descanso] - 21:00 a 21:20h
+  - Timers. Componente Timer
+    - Botón de reset
+    - Botones de Start y Stop: estado boolean y useEffect 
 
--->
+- Referencias persistentes: useRef
+  - persistencia de variables. Componente RenderCount
+  - elementos del DOM. Componente Focus
+  - (mencionados useMemo, useCallback) - React compiler y optimización de renderizados
 
 ### Día 4 (Lunes 01/06)
 
-<!-- - Formularios (continuación)
+<!-- - Formularios
+  - Tipos de formularios en React
   - Formularios controlados con un campo
   - Formularios controlados con múltiples campos
   - Validación de formularios con HTMLs
