@@ -1,8 +1,7 @@
 import type { MenuOption } from '@core/types/menu-option';
 import { Layout } from '@core/components/layout/layout';
 import './App.css';
-import { HomePage } from '@features/home/home-page';
-import { DashboardPage } from '@features/dashboard/dashboard-page';
+import { Router } from '@core/router/router';
 
 const getOptions = (): MenuOption[] => {
     return [
@@ -15,8 +14,8 @@ const getOptions = (): MenuOption[] => {
             label: 'Dashboard',
         },
         {
-            path: '/forms',
-            label: 'Formularios',
+            path: '/users',
+            label: 'Usuarios',
         },
     ];
 };
@@ -34,9 +33,8 @@ export const App: React.FC = () => {
             subTitle={subTitle}
             menuOptions={menuOptions}
         >
-            {/* Parte que varía en cada página */}
-            <HomePage />
-            <DashboardPage />
+            {/* Parte que varía en cada página dependiendo del Router */}
+            <Router></Router>
         </Layout>
     );
 };

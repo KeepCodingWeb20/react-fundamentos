@@ -1,5 +1,6 @@
 import type { MenuOption } from "@core/types/menu-option";
 import "./menu.css";
+import { Link } from "@core/router/link/link";
 
 type Props = {
     readonly options: MenuOption[];
@@ -11,7 +12,7 @@ export const Menu: React.FC<Props> = ({ options }) => {
             <ul>
                 {options.map((item) => (
                     <li key={item.path}>
-                        <a href={item.path}> {item.label}</a>
+                        <Link to={item.path}>{item.label}</Link>
                     </li>
                 ))}
             </ul>
