@@ -5,10 +5,12 @@
   "type": "module",
   "workspaces": [
     "projects/*"
-  ],  
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:01": "npm run dev --workspace=projects/demo-01",
+    "dev:02": "npm run dev --workspace=projects/demo-02",
+    "dev:03": "npm run dev --workspace=projects/demo-03"
   },
   "keywords": [],
   "author": "",
