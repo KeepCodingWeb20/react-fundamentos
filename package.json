@@ -10,7 +10,8 @@
   "scripts": {
     "dev:01": "npm run dev --workspace=projects/demo-01",
     "dev:02": "npm run dev --workspace=projects/demo-02",
-    "dev:03": "npm run dev --workspace=projects/demo-03"
+    "dev:03": "npm run dev --workspace=projects/demo-03",
+    "dev:04": "npm run dev --workspace=projects/demo-04"
   },
   "keywords": [],
   "author": "",
