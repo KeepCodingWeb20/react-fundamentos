@@ -189,29 +189,32 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 
 ### Día 4 (Lunes 01/06)
 
-<!-- - Formularios
+- Formularios
   - Tipos de formularios en React
   - Formularios controlados con un campo
   - Formularios controlados con múltiples campos
   - Validación de formularios con HTMLs
   - Formularios no controlados. FormData
 
-[Descanso] - 21:00 a 21:20h
+[Descanso] - 21:05 a 21:25h
 
+- Nuevo proyecto a partir del demo-02
+  - features (páginas): Home, Dashboard, Users, About
 - Rutas nativas en React
   - Componente Router: Presentación de las Vistas (páginas)
   - Componente Link: Navegación entre páginas
   - Uso del componente Link
   - Escuchar cambios en la URL
   - Diferencias con librerías de routing
-- Custom Hooks: Hook useRouter
-- La librería React Router
-  - Instalación
-  - React Router modo data (Programático) -->
 
 ### Día 5 (Martes 02/06)
 
-<!-- - Repaso Router
+<!--
+
+- Custom Hooks: Hook useRouter
+- La librería React Router
+  - Instalación
+  - React Router modo data (Programático)
   - Router con React nativo -> comentar error del Hook
   - ReactRouter
     1. Array de rutas: modificaciones
