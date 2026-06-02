@@ -2,25 +2,11 @@ import { AboutPage } from '@features/about/about-page';
 import { DashboardPage } from '@features/dashboard/dashboard-page';
 import { HomePage } from '@features/home/home-page';
 import { UsersPage } from '@features/users/users-page';
-import { useEffect, useState } from 'react';
+import { useRouter } from './use-router';
 
 export const Router: React.FC = () => {
-    const [currentPath, setCurrentPath] = useState<string>(
-        window.location.pathname,
-    );
 
-    useEffect(() => {
-        const handlePopState = () => {
-            setCurrentPath(window.location.pathname);
-        };
-
-        window.addEventListener('popstate', handlePopState);
-
-        return () => {
-            window.removeEventListener('popstate', handlePopState);
-        };
-    }, []);
-
+    const currentPath = useRouter();
     let CurrentPage: React.FC = () => null;
 
     switch (currentPath) {
