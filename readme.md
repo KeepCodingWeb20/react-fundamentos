@@ -209,42 +209,39 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 
 ### Día 5 (Martes 02/06)
 
-<!--
-
 - Custom Hooks: Hook useRouter
 - La librería React Router
   - Instalación
-  - React Router modo data (Programático)
-  - Router con React nativo -> comentar error del Hook
-  - ReactRouter
-    1. Array de rutas: modificaciones
-    2. Definir Outlet en App
-    3. main: Crear router y añadir al provider
-    4. usar Link de react-router
-- La librería React Router (continuación)
-
-  - Redirecciones en las rutas
+  - ReactRouter modo declarativo
   - Lazy Loading
+  - React Router modo data (Programático) mencionado
 
 - Patrón contenedor/presentador. Rutas dinámicas
   - Página de Productos y su ruta en el array de rutas
   - Entidad, servicio y datos
-    - getAllAsync / getByIdAsync
-  - CRUD de productos:
-    - ProductsList
-    - ProductCard
 
 [Descanso] - 21:00 a 21:20h
 
+- Patrón contenedor/presentador (continuación)
+  - servicio
+    - getAllAsync / getByIdAsync
+  - CRUD de productos:
+    - ProductsList
+    - ProductItem (Card)
+    - ProductForm
+  
 - CRUD de productos:
-
-  - ProductForm: Edit
+  - ProductForm: Delete
   - ProductForm: Add
 
-- Rutas dinámicas
-  - Página de detalle -->
-
 ### Día 6 (Jueves 04/06)
+
+<!--
+- CRUD de productos:
+  - ProductForm: Edit
+- Rutas dinámicas
+  - Página de detalle 
+-->
 
 <!-- - Patrones de abstracción de datos
   - Custom Hooks: lógica del estado
