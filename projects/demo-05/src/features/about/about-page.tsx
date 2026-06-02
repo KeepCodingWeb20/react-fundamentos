@@ -1,6 +1,5 @@
 import './about-page.css';
 
-
 export const AboutPage: React.FC = () => {
     return (
         <section>
@@ -8,3 +7,5 @@ export const AboutPage: React.FC = () => {
         </section>
     );
 };
+
+export default AboutPage;

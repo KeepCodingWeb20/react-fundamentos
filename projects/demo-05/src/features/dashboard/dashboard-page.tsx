@@ -13,3 +13,5 @@ export const DashboardPage: React.FC = () => {
         </section>
     );
 };
+
+export default DashboardPage;

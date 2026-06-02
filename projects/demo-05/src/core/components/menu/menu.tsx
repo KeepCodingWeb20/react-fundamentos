@@ -1,6 +1,6 @@
 import type { MenuOption } from "@core/types/menu-option";
 import "./menu.css";
-import { Link } from "@core/router/link/link";
+import { Link } from "react-router";
 
 type Props = {
     readonly options: MenuOption[];

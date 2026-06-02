@@ -14,3 +14,5 @@ export const UsersPage: React.FC = () => {
         </section>
     );
 };
+
+export default UsersPage;

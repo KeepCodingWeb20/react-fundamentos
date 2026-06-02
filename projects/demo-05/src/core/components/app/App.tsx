@@ -1,7 +1,7 @@
 import type { MenuOption } from '@core/types/menu-option';
 import { Layout } from '@core/components/layout/layout';
 import './App.css';
-import { Router } from '@core/router/router';
+import { Router } from '@core/router/router-lazy';
 
 const getOptions = (): MenuOption[] => {
     return [
