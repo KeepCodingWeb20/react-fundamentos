@@ -17,6 +17,8 @@ const getOptions = (): MenuOption[] => {
             path: '/users',
             label: 'Usuarios',
         },
+        { path: '/products', label: 'Productos' },
+        { path: '/about', label: 'Acerca de' },
     ];
 };
 
@@ -25,7 +27,6 @@ export const App: React.FC = () => {
     const subTitle = 'React - TS - Vite';
 
     const menuOptions: MenuOption[] = getOptions();
-    menuOptions.push({ path: '/about', label: 'Acerca de' });
 
     return (
         <Layout
