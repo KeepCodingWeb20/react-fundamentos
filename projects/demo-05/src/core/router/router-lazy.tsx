@@ -53,6 +53,15 @@ export const Router: React.FC = () => {
                     </React.Suspense>
                 }
             />
+        <Route
+                path="/product/:id"
+                element={
+                    <React.Suspense fallback={<p>Loading...</p>}>
+                        <ProductsPage />
+                    </React.Suspense>
+                }
+            />
+
             <Route
                 path="/about"
                 element={
