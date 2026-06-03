@@ -10,9 +10,18 @@ export const ProductsList: React.FC = () => {
 
     useEffect(() => {
         const products = productsRepo.getProducts();
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setProducts(products);
     }, []);
 
+
+    const editProduct = (product: Product) => {
+            console.log(`Producto con id ${product.id} preparado para edición`);
+            // Open ProductForm with product data for editing
+            setProducts((prevProducts) =>
+                prevProducts.map((p) => (p.id === product.id ? product : p)),
+            );
+    }
 
     const addProduct = (product: ProductCreateDTO) => {
         const newProduct: Product = {
@@ -40,6 +49,7 @@ export const ProductsList: React.FC = () => {
                             key={product.id}
                             product={product}
                             onDelete={deleteProduct}
+                            onEdit={editProduct}
                         />
                     ))}
                 </ul>
