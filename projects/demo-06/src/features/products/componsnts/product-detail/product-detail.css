@@ -1,0 +1,22 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    dl {
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto 1fr;
+
+    }
+
+    dt {
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    dd {
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+}
