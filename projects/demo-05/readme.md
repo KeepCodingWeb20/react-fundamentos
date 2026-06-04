@@ -46,4 +46,12 @@ Inicialmente clonamos demo4
 
 - Modificamos el router añadiendo una ruta di para los detalles: `/product/:id`
   
+### Layers: customHooks y repositories
 
+- Creamos un custom hook `useProducts` para manejar la lógica de productos
+  - Traemos del componente el estado para los productos
+  - Traemos de componente el `useEffect` para llamar a `getProducts` del repositorio y guardar los productos en el estado
+  - Traemos del componente los métodos `addProduct`, `editProduct` y `deleteProduct` para modificar el estado de productos
+  - Devuelve el estado de productos y los métodos para modificarlo
+
+- En el caso de `useDetails`, ya hemos aplicado directasmente este patrón

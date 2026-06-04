@@ -38,7 +38,7 @@ En el backend tendremos disponibles los siguientes endpoints:
   - POST: Devuelve un token de acceso cuando le pasamos un name y
     password de un usuario correctos.
 
-El resto de los enpois pueden usar cualquier nombre, creando la correspondiente entidad en el archivo db.json. En este caso, usaremos la entidad products como ejemplo, para gestionar un CRUD de productos
+El resto de los endpoints pueden usar cualquier nombre, creando la correspondiente entidad en el archivo db.json. En este caso, usaremos la entidad products como ejemplo, para gestionar un CRUD de productos
 
 - **/api/products**
 
@@ -58,7 +58,7 @@ El resto de los enpois pueden usar cualquier nombre, creando la correspondiente 
     por el backend cómo contenido estático; el endpoint devuelve la ruta pública de cada foto, que puede ser
     almacenada en cualquiera de los productos de la "base de datos".
 
-**NOTA IMPORTANTE**: Todos los endpoints bajo /api requieren que se envíe el token proporcionado en el endpoint de login. Se ha de enviar en la cabecera de la petición de la siguiente forma:
+**NOTA IMPORTANTE**: Todos los endpoints bajo /api/products requieren que se envíe el token proporcionado en el endpoint de login. Se ha de enviar en la cabecera de la petición de la siguiente forma:
 
 Header['Authorization'] = `Bearer ${token}`
 

@@ -236,27 +236,32 @@ Aprender qué es y cómo funciona React, una librería creada por Facebook para 
 
 ### Día 6 (Jueves 04/06)
 
-<!--
+- Explicación del código desarrollado fuera de clase
+
 - CRUD de productos:
   - ProductForm: Edit
 - Rutas dinámicas
   - Página de detalle 
--->
+- Custom Hooks: lógica del estado
 
-<!-- - Patrones de abstracción de datos
-  - Custom Hooks: lógica del estado
-  - Capa repositorio -> APIS
-  
 - APIs
   - Backend real can sparest
   - Carga de datos: del mock asinncrono a la api real
-    - Creación de métodos en el repo
-    - Uso en los hook
-  
-  [Descanso] - 21:00 a 21:20h
+    - Capa repositorio -> APIS
+    - Adaptación de los métodos de lectura en el repo
+    - Métodos CUD en el repo
 
-  - Métodos CUD en el repo
-  - Incorporación en el hook: estrategia optimista
+[Descanso] - 21:05 a 21:25h
+
+- Uso del repo en lo customHooks
+  - Lectura de dator en los useEffect
+  - Incorporación del CUD en el hook: 
+    - estrategia optimista
+    - estrategia conservadora
+
+
+<!-- 
+
   - Pruebas de los componentes
 
 - Autenticación
