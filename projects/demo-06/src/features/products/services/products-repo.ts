@@ -1,6 +1,6 @@
 import type { Product, ProductCreateDTO, ProductUpdateDTO } from '../entities/products';
 
-const BASE_URL = 'http://localhost:8080/api/';
+const BASE_URL = 'http://localhost:8000/api/';
 const API_URL = `${BASE_URL}vehicles/`;
 
 
