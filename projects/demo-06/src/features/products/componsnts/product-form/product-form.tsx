@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 interface Props {
     editedProduct?: Product;
-    onAdd?: (data: ProductCreateDTO) => void;
+    onAdd?: (data: ProductCreateDTO) => Promise<void>;
     onEdit?: (data: Product) => void;
 }
 
